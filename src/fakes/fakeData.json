@@ -1,0 +1,37 @@
+[
+  {
+    "title": "All (Privates)",
+    "updates": [
+      {
+        "content": "Some text"
+      },
+      {
+        "content": "Some other text"
+      }
+    ]
+  },
+  {
+    "title": "Marketing Campaign",
+    "updates": [
+      {
+        "content": "Some text"
+      }
+    ]
+  },
+  {
+    "title": "Recruiting",
+    "updates": [
+      {
+        "content": "Some text"
+      }
+    ]
+  },
+  {
+    "title": "Website",
+    "updates": [
+      {
+        "content": "Some text"
+      }
+    ]
+  }
+]
