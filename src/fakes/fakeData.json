@@ -1,36 +1,47 @@
 [
   {
-    "title": "All (Privates)",
-    "updates": [
+    "id": 1,
+    "organization": "Venturemark",
+    "audiences": [
       {
-        "content": "Some text"
+        "name": "Wins",
+        "img": ""
       },
       {
-        "content": "Some other text"
+        "name": "Metrics",
+        "img": ""
       }
     ]
   },
   {
-    "title": "Marketing Campaign",
-    "updates": [
+    "id": 2,
+    "organization": "First round Capital",
+    "audiences": [
       {
-        "content": "Some text"
+        "name": "Recruiting",
+        "img": ""
+      },
+      {
+        "name": "Advisors",
+        "img": ""
       }
     ]
   },
   {
-    "title": "Recruiting",
-    "updates": [
+    "id": 3,
+    "organization": "Y Combinator",
+    "audiences": [
       {
-        "content": "Some text"
-      }
-    ]
-  },
-  {
-    "title": "Website",
-    "updates": [
+        "name": "Prospective Startups",
+        "img": ""
+      },
       {
-        "content": "Some text"
+        "name": "Partners",
+        "img": ""
+      },
+      {
+        "name": "First Round Capital",
+        "img": ""
       }
     ]
   }
