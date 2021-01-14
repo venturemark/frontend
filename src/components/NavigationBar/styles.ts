@@ -69,6 +69,20 @@ export const Organization = styled.div`
   padding: 7.5px;
 `;
 
+export const OrgHighlight = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  div {
+    display: flex;
+    flex-direction: row;
+  }
+`;
+
+export const AddButton = styled.button`
+
+`;
+
 export const Audience = styled.div`
   display: flex;
   align-items: center;
