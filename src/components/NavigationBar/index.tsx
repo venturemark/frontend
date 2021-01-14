@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { FaBars } from 'react-icons/fa';
 
-import { MdAddCircle, MdAccountCircle } from 'react-icons/md';
+import { MdAddCircle } from 'react-icons/md';
 
 import {
   Container,
@@ -15,6 +15,7 @@ import {
   Organization,
   OrgHighlight,
   Audience,
+  AudienceLogo,
   AddButton,
 } from './styles';
 
@@ -45,7 +46,7 @@ const NavigationBar: React.FC = () => {
 
         </MenuItem>
         <MenuContent>
-          <h1>Home</h1>
+          <h3>Home</h3>
         </MenuContent>
         <List>
           { fakeData.map((data) => (
@@ -55,20 +56,17 @@ const NavigationBar: React.FC = () => {
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}
                 >
-                  <div>
-                    <h3>{data.organization}</h3>
-                    {isHovered && (
+                  <h3>{data.organization}</h3>
+                  {isHovered && (
                     <AddButton type="button">
-                      <MdAddCircle size={20} />
+                      <MdAddCircle size={24} color="#029D7F" />
                     </AddButton>
-                    )}
-                  </div>
+                  )}
                 </OrgHighlight>
-
                 { data.audiences.map((audience) => (
                   <Audience>
                     <button type="button">
-                      <MdAccountCircle />
+                      <AudienceLogo src={audience.img} alt="logo" />
                       {audience.name}
                     </button>
                   </Audience>

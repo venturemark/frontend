@@ -5,11 +5,11 @@
     "audiences": [
       {
         "name": "Wins",
-        "img": ""
+        "img": "https://www.flaticon.com/svg/vstatic/svg/3553/3553753.svg?token=exp=1610654568~hmac=ef26c0a74fa7bedcdb8b6ac0a601df5e"
       },
       {
         "name": "Metrics",
-        "img": ""
+        "img": "https://www.flaticon.com/svg/vstatic/svg/1027/1027942.svg?token=exp=1610654568~hmac=5d508af5391fb1c40f1d4facf793f025"
       }
     ]
   },
@@ -19,11 +19,11 @@
     "audiences": [
       {
         "name": "Recruiting",
-        "img": ""
+        "img": "https://www.flaticon.com/svg/vstatic/svg/3553/3553950.svg?token=exp=1610654568~hmac=7bd0f21440162b536cc5879c63940056"
       },
       {
         "name": "Advisors",
-        "img": ""
+        "img": "https://www.flaticon.com/svg/vstatic/svg/1651/1651602.svg?token=exp=1610654855~hmac=39bc1d97a7306d08083e70d6451d0e11"
       }
     ]
   },
@@ -33,15 +33,15 @@
     "audiences": [
       {
         "name": "Prospective Startups",
-        "img": ""
+        "img": "https://www.flaticon.com/svg/vstatic/svg/3459/3459657.svg?token=exp=1610654568~hmac=8798287ac1cc734b15b23b2a64093f8e"
       },
       {
         "name": "Partners",
-        "img": ""
+        "img": "https://www.flaticon.com/svg/vstatic/svg/3315/3315183.svg?token=exp=1610654874~hmac=aac9a87b3043a58a7d95247174b0cd5f"
       },
       {
         "name": "First Round Capital",
-        "img": ""
+        "img": "https://www.flaticon.com/svg/vstatic/svg/3408/3408743.svg?token=exp=1610654568~hmac=f184bb69ca438365b5fca86dba364108"
       }
     ]
   }

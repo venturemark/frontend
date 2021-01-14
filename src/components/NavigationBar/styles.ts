@@ -26,7 +26,6 @@ export const NavMenu = styled.nav<INavMenuProps>`
 
   display: flex;
   flex-direction: column;
-  align-items: center;
 
   transition: 850ms;
   height: 100vh;
@@ -44,6 +43,7 @@ export const NavMenu = styled.nav<INavMenuProps>`
 
 export const MenuItem = styled.ul`
   margin-top: 1.7em;
+  padding: 1.3em;
 
   h4, h5 {
     font-weight: normal;
@@ -53,6 +53,7 @@ export const MenuItem = styled.ul`
 
 export const MenuContent = styled.div`
   margin-top: 1.3em;
+  margin-left: 1.3em;
 `;
 
 export const List = styled.div`
@@ -62,20 +63,22 @@ export const List = styled.div`
 `;
 
 export const Item = styled.div`
-  padding: 15px;
+  padding: 1.3em;
 `;
 
 export const Organization = styled.div`
-  padding: 7.5px;
 `;
 
 export const OrgHighlight = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
 
-  div {
+  button {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 `;
 
@@ -92,4 +95,11 @@ export const Audience = styled.div`
     align-items: center;
     justify-content: center;
   }
+`;
+
+export const AudienceLogo = styled.img`
+  margin-right: 0.5em;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
 `;
