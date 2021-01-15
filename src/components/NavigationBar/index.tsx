@@ -49,8 +49,8 @@ const NavigationBar: React.FC = () => {
                   )}
                 </div>
                 {data.audiences.map((audience) => (
-                  <div className="w-64 py-2">
-                    <div className="flex w-full items-center font-light tracker-widest">
+                  <div className="w-64">
+                    <div className="flex w-full items-center font-light tracker-widest rounded p-2 hover:bg-gray-100">
                       <img className="w-10 h-10 rounded-full" src={audience.img} alt="logo" />
                       <p className="flex-grow">{audience.name}</p>
                       <span className="ml-auto w-3 h-3 bg-green-600 rounded-full" />
