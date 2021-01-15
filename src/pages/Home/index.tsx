@@ -31,6 +31,7 @@ const Home: React.FC = () => (
           <RegularButton type="button">Select Organization</RegularButton>
           <RegularButton type="button">Select Audience</RegularButton>
           <SendButton type="button">Send Update</SendButton>
+          <button type="button" className="bg-white text-gray-500 p-2 rounded shadow-xl">Do something</button>
         </FixedContent>
         <Timeline>
           <h5>NEW UPDATES</h5>
