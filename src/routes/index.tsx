@@ -6,13 +6,17 @@ import SignIn from '../pages/SignIn';
 import Home from '../pages/Home';
 import Timeline from '../pages/Timeline';
 
+import PageWrapper from '../components/PageWrapper'
+
 const Routes: React.FC = () => (
-  <Switch>
-    <Route path="/" exact component={Home} />
-    <Route path="/timeline" exact component={Timeline} />
-    <Route path="/singin" exact component={SignIn} />
-    <Route path="/signup" exact component={SignUp} />
-  </Switch>
+  <PageWrapper>
+    <Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/timeline" exact component={Timeline} />
+      <Route path="/singin" exact component={SignIn} />
+      <Route path="/signup" exact component={SignUp} />
+    </Switch>
+  </PageWrapper>
 );
 
 export default Routes;
