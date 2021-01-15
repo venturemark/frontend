@@ -1,10 +1,6 @@
 import React from 'react';
-
-import { MdHome, MdAccountCircle } from 'react-icons/md';
-
+import { MdHome } from 'react-icons/md';
 import NavigationBar from '../NavigationBar';
-
-import { Container } from './styles';
 
 const userLogged = {
   name: 'Thiago Vasconcellos',
@@ -12,14 +8,14 @@ const userLogged = {
 };
 
 const Header: React.FC = () => (
-  <>
+  <div className="top-0 sticky z-30 bg-white">
     <NavigationBar />
-    <Container>
+    <div className="h-16 p-5 flex items-center justify-between">
       <MdHome color="#f0f0f0" visibility="hidden" size={32} />
-      <h2>V E N T U R E M A R K</h2>
-      <img src={userLogged.avatar} alt="logo" />
-    </Container>
-  </>
+      <h2 className="font-light tracking-widest leading-loose uppercase">Venturemark</h2>
+      <img className="h-10 w-10 rounded-full" src={userLogged.avatar} alt="logo" />
+    </div>
+  </div>
 );
 
 export default Header;

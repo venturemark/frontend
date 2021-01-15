@@ -1,27 +1,15 @@
 import React from 'react';
-
 import Header from '../../components/Header';
-
-import {
-  Container,
-  Content,
-  FixedContent,
-  MainInput,
-  RegularButton,
-  SendButton,
-  Timeline,
-  Update,
-} from './styles';
 
 const userLogged = {
   name: 'Thiago Vasconcellos',
-  avatar: 'https://scontent.fssz1-1.fna.fbcdn.net/v/t1.0-9/p960x960/65542077_10219773292872562_841547186079531008_o.jpg?_nc_cat=104&ccb=2&_nc_sid=85a577&_nc_ohc=hBGjpSabL5UAX9hPcXd&_nc_ht=scontent.fssz1-1.fna&tp=6&oh=917b0ef11b0b51022d577fcee01c1b24&oe=60276844',
+  avatar: 'https://scontent.fssz1-1.fna.fbcdn.net/v/t1.0-9/p960x960/65542077_10219773292872562_841547186079531008_o.jpg?_nc_cat=104&ccb=2&_nc_sid=85a577&_nc_ohc=hBGjpSabL5UAX9hPcXd&_nc_ht=scontent.fssz1-1.fna&tp=6&ohgit =917b0ef11b0b51022d577fcee01c1b24&oe=60276844',
 };
 
 const Home: React.FC = () => (
   <>
     <Header />
-    <Container>
+    <div>
       <div className="min-h-screen w-full bg-gray-100 p-5">
         <section className="mt-10">
           <div className="flex w-full border-red-100 rounded shadow-lg bg-gray-50 px-3 py-6 space-x-10">
@@ -29,7 +17,7 @@ const Home: React.FC = () => (
               <div className="h-10 w-10 bg-gray-200 rounded-full" />
             </div>
             <div className="flex items-center">
-              <p className="text-md text-gray-300">Investors love to hear from you. Share an update...</p>
+              <p className="text-md text-gray-400">Investors love to hear from you. Share an update...</p>
             </div>
           </div>
         </section>
@@ -157,7 +145,7 @@ const Home: React.FC = () => (
         </section>
 
       </div>
-    </Container>
+    </div>
   </>
 );
 
